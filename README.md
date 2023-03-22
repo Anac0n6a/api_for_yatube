@@ -9,4 +9,4 @@
 ### Что использовалось при написнии проекта?
 библиотека django, rest_framework, djoser, django-filters и др.
 
-## Автор проекта Tim Shmakov
+## Автор проекта Tim 
