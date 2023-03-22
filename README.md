@@ -1,19 +1,12 @@
-Как запустить проект:
-Клонировать репозиторий и перейти в него в командной строке:
+# Финальный проект 9 спринта. API Для проекта Yatube
+## Как локально развернуть проект?
+клонировать репозиторий к себе в дирректорию, далее, добавить виртуальное окружиение и установить в него все зависимтости.
 
-git clone https://github.com/yandex-praktikum/kittygram.git
-cd kittygram
-Cоздать и активировать виртуальное окружение:
+Выполнить миграции
 
-python3 -m venv env
-source env/bin/activate
-Установить зависимости из файла requirements.txt:
+Запустить проект командой "python manage.py runserver"
 
-python3 -m pip install --upgrade pip
-pip install -r requirements.txt
-Выполнить миграции:
+### Что использовалось при написнии проекта?
+библиотека django, rest_framework, djoser, django-filters и др.
 
-python3 manage.py migrate
-Запустить проект:
-
-python3 manage.py runserver
+## Автор проекта Tim Shmakov
