@@ -1,4 +1,6 @@
 Django==3.2.16
+djoser
+django-filter
 pytest==6.2.4
 pytest-pythonpath==0.7.3
 pytest-django==4.4.0
