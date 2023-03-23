@@ -59,11 +59,3 @@ class FollowSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError(
                 'Не логично подписываться, на самого себя))')
         return data
-
-
-class UserSerializer(serializers.ModelSerializer):
-    posts = serializers.StringRelatedField(many=True, read_only=True)
-
-    class Meta:
-        model = User
-        fields = ('id', 'username', 'first_name', 'last_name', 'posts')
